@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e9e1; /* Light tan background */
+}
+
+header {
+    background-color: #7d5a41; /* Brown header background */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #7d5a41; /* Brown heading color */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.job {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job button {
+    background-color: #7d5a41;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.job button:hover {
+    background-color: #5a3d2d;
+}
+
+.detail-box {
+    border: 1px solid #7d5a41;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+footer {
+    background-color: #7d5a41;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
